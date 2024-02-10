@@ -1,0 +1,64 @@
+:root{
+  --red: #f54e4e;
+  --green: #4aec8c;
+}
+
+body{
+  background-image: url('C:\Users\Salvatore\pomodoro-timer-app\images\Blue-Pattern-Background-For-Free-Download.jpg');
+  background-size: cover;
+  background-color: #0f1011c0;
+  background-blend-mode: overlay;
+  background-repeat: repeat;
+
+  color: #eee;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), transparent; /* Sovrapposizione di un gradiente lineare nero con opacità 0.5 */
+  z-index: -1; /* Per posizionare sopra l'immagine di sfondo */
+}
+
+main{
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  color: rgba(255,255,255,0.8);
+  border:0;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
+
+button.with-text{
+  width: auto;
+  background-color:rgba(255,255,255,0.1);
+  border-radius:10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+button.with-text svg{
+  width: 36px;
+  float:left;
+  margin-right: 5px;
+}
+
+label{
+  display:block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+
