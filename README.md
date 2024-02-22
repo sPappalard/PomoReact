@@ -5,5 +5,5 @@
   <p>
 	  
   </p>
-  <img src= "https://github.com/sPappalard/PomodoroTimerApp/blob/main/Senza-titolo(1).gif" alt=GIF">
+  <img center src= "https://github.com/sPappalard/PomodoroTimerApp/blob/main/Senza-titolo(1).gif" alt=GIF">
 </p>
